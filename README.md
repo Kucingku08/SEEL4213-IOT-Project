@@ -4,8 +4,6 @@
 *Jack Sparrow*
 
 ## Group members
-- muhammad Faris bin Zubir
-- Giri Munan anak Henry Gasah
-- Muhammad Nor Arif bin Mohd Azmi
+- Muhammad Faris bin Zubir
 
 
