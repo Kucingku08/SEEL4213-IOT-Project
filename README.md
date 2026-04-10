@@ -5,5 +5,7 @@
 
 ## Group members
 - Muhammad Faris bin Zubir
+- Giri Munan Anak Henry Gasah
+- Muhammad Nor Arif Bin Mohd Azam
 
 
