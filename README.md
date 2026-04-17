@@ -7,6 +7,8 @@
 - Muhammad Faris bin Zubir
 - Giri Munan anak Henry Gasah
 - Muhammad Nor Arif bin Mohd Azam
-- Muhammad Nor Arif bin Mohd Azmi
 
 ## Hands On Checklist
+Week 1 - DONE!
+Week 2 - DONE!
+Week 3 - WIP
