@@ -5,7 +5,7 @@
 
 ## Group members
 - Muhammad Faris bin Zubir
-- Giri Munan Anak Henry Gasah
-- Muhammad Nor Arif Bin Mohd Azam
+- Giri Munan anak Henry Gasah
+- Muhammad Nor Arif bin Mohd Azmi
 
-
+## Hands On Checklist
