@@ -6,9 +6,6 @@
 ## Group members
 - Muhammad Faris bin Zubir
 - Giri Munan anak Henry Gasah
-- Muhammad Nor Arif bin Mohd Azmi
+- Muhammad Nor Arif Mohd Azmi
 
 ## Hands On Checklist
-Week 1 - DONE!
-Week 2 - DONE!
-Week 3 - WIP
