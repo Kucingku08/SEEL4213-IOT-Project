@@ -6,4 +6,4 @@
 ## Group members
 - Muhammad Faris bin Zubir
 - Giri Munan anak Henry Gasah
-- Muhammad Nor Arif bin Mohd Azmi
+- Muhammad Nor Arif bin Mohd Azam
