@@ -1,3 +1,3 @@
 print("Hello, World!")
 
-print("\nTest for push")
+print("\nTest for week 3")
