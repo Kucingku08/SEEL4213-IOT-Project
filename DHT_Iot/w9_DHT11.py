@@ -138,6 +138,7 @@ if __name__ == "__main__":
             print(f"Humidity: {hum}%")
 
             try:
+                resend_unsynced()
                 reading_id = save_reading(temp, hum)
                 send_to_blynk_safe(temp, hum, reading_id)
                 logging.info("Data sent to Blynk")
@@ -152,6 +153,6 @@ if __name__ == "__main__":
                 logging.error(f"Unexpected error: {e}")
 
         except Exception as e:
-            print(f"Sensor Error: {e}")
+            logging.error(f"Sensor Error: {e}")
         
         time.sleep(10)
