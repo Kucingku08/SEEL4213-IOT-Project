@@ -79,15 +79,18 @@ if __name__ == "__main__":
         print(f"Temperature: {temp}°C")
         print(f"Humidity: {hum}%")
 
-        send_to_blynk(temp, hum)
+        try:
+            send_to_blynk(temp, hum)
+            logging.info("Data sent to Blynk")
 
-        print("Data sent to Blynk!")
+        except requests.exceptions.Timeout:
+            logging.error("Blynk timeout - saved locally")
 
-    except requests.exceptions.Timeout:
-   	 logging.error("Blynk timeout - saved locally")
+        except requests.exceptions.ConnectionError:
+            logging.error("Network unavailable")
 
-    except requests.exceptions.ConnectionError:
-   	 logging.error("Network unavailable")
+        except Exception as e:
+            logging.error(f"Unexpected error: {e}")
 
     except Exception as e:
-	 logging.error(f"Unexpected error: {e}")
+        print(f"Sensor Error: {e}")
